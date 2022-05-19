@@ -4,12 +4,33 @@
 
 header {
     background-color: #004175;
-    border-color: #89deef;
-    border: solid;
-    border-width: 5px;
+    border: 5px solid #89deef;
 }
 
 header {
     font-family: 'Open Sans';
     color: white;
+}
+
+.dogs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: blue;
+    border: #89deef;
+    padding: 20px
+}
+
+.traits{
+    background-color: #89deef;
+    border-radius: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:
+}
+
+img {
+    max-width: 400px;
+    padding-bottom: 0px
 }
