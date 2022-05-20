@@ -1,36 +1,76 @@
-#main{
-    
+* {
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
 }
 
 header {
+    display:flex;
+    justify-content: center;
     background-color: #004175;
     border: 5px solid #89deef;
+    font-family: 'Open Sans';
+    color: white
 }
 
-header {
-    font-family: 'Open Sans';
-    color: white;
+#container {
+    display: flex;
+    flex-direction:row;
+    background-color: green;
+    border: solid;
+    border-color: black;
+    width: max-content;
+}
+
+img {
+    max-width: 250px;
+}
+
+#box1 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: black;
+    width: max-content;
 }
 
 .dogs {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background-color: blue;
-    border: #89deef;
-    padding: 20px
+    border: black;
+    border-width: 100px;
 }
 
-.traits{
-    background-color: #89deef;
-    border-radius: 150px;
+#buttons {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width:
 }
 
-img {
-    max-width: 400px;
-    padding-bottom: 0px
+button {
+    margin: 10px;
+    background-color: #89deef;
+    border-radius: 150px;
 }
+
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1 1 auto;
+
+}
+
+#box2 {
+    
+}
+
+
